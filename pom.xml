@@ -11,11 +11,13 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>tengan-mall-common</module>
         <module>tengan-mall-coupon</module>
         <module>tengan-mall-member</module>
         <module>tengan-mall-order</module>
         <module>tengan-mall-product</module>
         <module>tengan-mall-ware</module>
+        <module>renren-fast</module>
     </modules>
 
 </project>
