@@ -1,13 +1,13 @@
 package com.anulis.tenganmall.ware;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TenganMallWareApplicationTests {
+public class TenganMallWareApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
 
 }
