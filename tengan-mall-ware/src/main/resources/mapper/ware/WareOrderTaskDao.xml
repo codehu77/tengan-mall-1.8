@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.anulis.tenganmall.ware.dao.WareOrderTaskDao">
+
+	<!-- 可根據自己的需求，決定是否要使用 -->
+    <resultMap type="com.anulis.tenganmall.ware.entity.WareOrderTaskEntity" id="wareOrderTaskMap">
+        <result property="id" column="id"/>
+        <result property="orderId" column="order_id"/>
+        <result property="orderSn" column="order_sn"/>
+        <result property="consignee" column="consignee"/>
+        <result property="consigneePhone" column="consignee_phone"/>
+        <result property="deliveryAddress" column="delivery_address"/>
+        <result property="orderNote" column="order_note"/>
+        <result property="paymentMethod" column="payment_method"/>
+        <result property="taskStatus" column="task_status"/>
+        <result property="orderDescription" column="order_description"/>
+        <result property="trackingNumber" column="tracking_number"/>
+        <result property="createTime" column="create_time"/>
+        <result property="wareId" column="ware_id"/>
+        <result property="taskNote" column="task_note"/>
+    </resultMap>
+
+
+</mapper>
