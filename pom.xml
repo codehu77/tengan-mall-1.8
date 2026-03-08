@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.anulis.tenganmall</groupId>
+    <artifactId>tengan-mall</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>tengan-mall</name>
+    <description>天願商城聚合服務</description>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>tengan-mall-coupon</module>
+        <module>tengan-mall-member</module>
+        <module>tengan-mall-order</module>
+        <module>tengan-mall-product</module>
+        <module>tengan-mall-ware</module>
+    </modules>
+
+</project>

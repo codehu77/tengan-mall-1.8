@@ -15,3 +15,17 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# 子模組初始畫會產生的檔案，可以在此添加忽略或直接在子模組中刪除以下檔案
+**/mvnw.cmd
+**/mvnw
+**/.mvn
+**/.gitignore
+**/.gitattributes
+
+# 忽略編譯檔案，該檔案不需要提交
+**/target/
+
+# 忽略idea相關的檔案
+**/.idea/
+
